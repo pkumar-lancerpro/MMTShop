@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "ProductApiConsole/1.0.0": {
+        "dependencies": {
+          "ProductApiLibrary": "1.0.0"
+        },
+        "runtime": {
+          "ProductApiConsole.dll": {}
+        }
+      },
+      "ProductApiLibrary/1.0.0": {
+        "runtime": {
+          "ProductApiLibrary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ProductApiConsole/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ProductApiLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

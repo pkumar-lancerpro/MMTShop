@@ -1,4 +1,4 @@
-﻿using ProductApi.Models;
+﻿using ProductApiLibrary.Models;
 using System.Linq;
 
 namespace ProductApi.Data

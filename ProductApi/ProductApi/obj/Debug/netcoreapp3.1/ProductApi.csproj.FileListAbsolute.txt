@@ -46,9 +46,14 @@ C:\Dev\MMTShop\ProductApi\ProductApi\bin\Debug\netcoreapp3.1\ProductApi.runtimec
 C:\Dev\MMTShop\ProductApi\ProductApi\bin\Debug\netcoreapp3.1\ProductApi.dll
 C:\Dev\MMTShop\ProductApi\ProductApi\bin\Debug\netcoreapp3.1\ProductApi.pdb
 C:\Dev\MMTShop\ProductApi\ProductApi\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
-C:\Dev\MMTShop\ProductApi\ProductApi\obj\Debug\netcoreapp3.1\ProductApi.csproj.CoreCompileInputs.cache
-C:\Dev\MMTShop\ProductApi\ProductApi\obj\Debug\netcoreapp3.1\ProductApi.MvcApplicationPartsAssemblyInfo.cache
 C:\Dev\MMTShop\ProductApi\ProductApi\obj\Debug\netcoreapp3.1\ProductApi.dll
 C:\Dev\MMTShop\ProductApi\ProductApi\obj\Debug\netcoreapp3.1\ProductApi.pdb
 C:\Dev\MMTShop\ProductApi\ProductApi\obj\Debug\netcoreapp3.1\ProductApi.genruntimeconfig.cache
 C:\Dev\MMTShop\ProductApi\ProductApi\obj\Debug\netcoreapp3.1\ProductApi.csprojAssemblyReference.cache
+C:\Dev\MMTShop\ProductApi\ProductApi\bin\Debug\netcoreapp3.1\ProductApiLibrary.dll
+C:\Dev\MMTShop\ProductApi\ProductApi\bin\Debug\netcoreapp3.1\ProductApiLibrary.pdb
+C:\Dev\MMTShop\ProductApi\ProductApi\bin\Debug\netcoreapp3.1\System.Net.Http.Formatting.dll
+C:\Dev\MMTShop\ProductApi\ProductApi\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Dev\MMTShop\ProductApi\ProductApi\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+C:\Dev\MMTShop\ProductApi\ProductApi\obj\Debug\netcoreapp3.1\ProductApi.csproj.CoreCompileInputs.cache
+C:\Dev\MMTShop\ProductApi\ProductApi\obj\Debug\netcoreapp3.1\ProductApi.MvcApplicationPartsAssemblyInfo.cache

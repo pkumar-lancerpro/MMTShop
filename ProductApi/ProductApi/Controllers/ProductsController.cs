@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using ProductApi.Data;
-using ProductApi.Models;
+using ProductApiLibrary.Models;
 
 namespace ProductApi.Controllers
 {
