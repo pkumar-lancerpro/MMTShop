@@ -37,12 +37,12 @@ namespace ProductApi.Data
                 new Product{SKU=20000, Name="Prod3", CategoryId = 2 },
                 new Product{SKU=20001, Name="Prod4", CategoryId = 2 },
             };
+
             foreach (var p in products)
             {
                 context.Products.Add(p);
             }
             context.SaveChanges();
-
         }
     }
 }

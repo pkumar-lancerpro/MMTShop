@@ -14,12 +14,6 @@ namespace ProductApi.Controllers
     [Route("api/products")]
     public class ProductController : ControllerBase
     {
-        private static readonly Tuple<int, int>[] FeaturedProductRange = new Tuple<int, int>[]{
-            new Tuple<int, int>(10000, 19999),
-            new Tuple<int, int>(20000, 29999),
-            new Tuple<int, int>(30000, 39999),
-        };
-
         private readonly ILogger<ProductController> _logger;
         private readonly MMTShopContext _context;
 
@@ -33,9 +27,7 @@ namespace ProductApi.Controllers
         [Route("featured")]
         public async Task<IEnumerable<Product>> GetFeaturedProducts()
         {
-            var products = await _context.Products
-                    //.Where(x => FeaturedProductRange.Any(fp => x.SKU >= fp.Item1 && x.SKU <= fp.Item2))
-                    .ToListAsync();
+            var products = await _context.Products.FromSqlRaw("sp_GetFeaturedProducts").ToListAsync(); // _context.Products.ToListAsync();
             return products;
         }
 
