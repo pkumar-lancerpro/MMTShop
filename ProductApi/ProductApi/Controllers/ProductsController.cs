@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using ProductApi.Data;
-using ProductApiLibrary.Models;
 
 namespace ProductApi.Controllers
 {
@@ -25,18 +21,19 @@ namespace ProductApi.Controllers
 
         [HttpGet]
         [Route("featured")]
-        public async Task<IEnumerable<Product>> GetFeaturedProducts()
+        public async Task<IActionResult> GetFeaturedProducts()
         {
-            var products = await _context.Products.FromSqlRaw("sp_GetFeaturedProducts").ToListAsync(); // _context.Products.ToListAsync();
-            return products;
+            var products = await _context.Products.FromSqlRaw("sp_GetFeaturedProducts").ToListAsync(); 
+            return Ok(products);
         }
 
         [HttpGet]
         [Route("bycategory/{categoryId}")]
-        public async Task<IEnumerable<Product>> GetProductsByCategory(int categoryId)
+        public async Task<IActionResult> GetProductsByCategory(int categoryId)
         {
-            var products = await _context.Products.Where(x => x.CategoryId == categoryId).ToListAsync();
-            return products;
+            //var products = await _context.Products.Where(x => x.CategoryId == categoryId).ToListAsync();
+            var products = await _context.Products.FromSqlRaw("sp_GetProductsByCategory @p0", categoryId).ToListAsync(); 
+            return Ok(products);
         }
     }
 }

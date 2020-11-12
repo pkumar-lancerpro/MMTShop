@@ -22,10 +22,10 @@ namespace ProductApi.Controllers
         }
 
         [HttpGet]
-        public async Task<IEnumerable<Category>> Get()
+        public async Task<IActionResult> Get()
         {
             var categories = await _context.Categories.ToListAsync();
-            return categories;
+            return Ok(categories);
         }
     }
 }

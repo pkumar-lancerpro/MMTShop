@@ -1,9 +1,8 @@
 C:\Dev\MMTShop\ProductApi\ProductApiLibrary\bin\Debug\netcoreapp3.1\ProductApiLibrary.deps.json
 C:\Dev\MMTShop\ProductApi\ProductApiLibrary\bin\Debug\netcoreapp3.1\ProductApiLibrary.dll
 C:\Dev\MMTShop\ProductApi\ProductApiLibrary\bin\Debug\netcoreapp3.1\ProductApiLibrary.pdb
-C:\Dev\MMTShop\ProductApi\ProductApiLibrary\obj\Debug\netcoreapp3.1\ProductApiLibrary.csprojAssemblyReference.cache
 C:\Dev\MMTShop\ProductApi\ProductApiLibrary\obj\Debug\netcoreapp3.1\ProductApiLibrary.AssemblyInfoInputs.cache
 C:\Dev\MMTShop\ProductApi\ProductApiLibrary\obj\Debug\netcoreapp3.1\ProductApiLibrary.AssemblyInfo.cs
+C:\Dev\MMTShop\ProductApi\ProductApiLibrary\obj\Debug\netcoreapp3.1\ProductApiLibrary.csproj.CoreCompileInputs.cache
 C:\Dev\MMTShop\ProductApi\ProductApiLibrary\obj\Debug\netcoreapp3.1\ProductApiLibrary.dll
 C:\Dev\MMTShop\ProductApi\ProductApiLibrary\obj\Debug\netcoreapp3.1\ProductApiLibrary.pdb
-C:\Dev\MMTShop\ProductApi\ProductApiLibrary\obj\Debug\netcoreapp3.1\ProductApiLibrary.csproj.CoreCompileInputs.cache
