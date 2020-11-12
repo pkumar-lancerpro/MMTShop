@@ -1,0 +1,3 @@
+Github Repo - https://github.com/pkumar-lancerpro/MMTShop
+
+DB Connection = Data Source=localhost\SQLExpress;Initial Catalog=MMTShop;Integrated Security=True

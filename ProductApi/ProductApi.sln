@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30517.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductApi", "ProductApi\ProductApi.csproj", "{813E0A77-9381-4717-9DB6-EA9B8B5A1C88}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{16A0CCCB-0526-482D-A038-4183B755A98C}"
+	ProjectSection(SolutionItems) = preProject
+		..\MMTScripts.sql = ..\MMTScripts.sql
+		..\MMTShop Test.txt = ..\MMTShop Test.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{813E0A77-9381-4717-9DB6-EA9B8B5A1C88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{813E0A77-9381-4717-9DB6-EA9B8B5A1C88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{813E0A77-9381-4717-9DB6-EA9B8B5A1C88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{813E0A77-9381-4717-9DB6-EA9B8B5A1C88}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F242E4A3-7CA9-4D45-B44C-81300AF607A4}
+	EndGlobalSection
+EndGlobal
